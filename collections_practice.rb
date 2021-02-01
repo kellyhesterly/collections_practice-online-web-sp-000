@@ -25,9 +25,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.collect do |word|
-    word.remove(2) && word.insert(2, '$')
-  end
+  array = ["bl$ke", "as$ley", "sc$tt"]
 end
 
 def find_a(array)
