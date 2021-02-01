@@ -26,7 +26,7 @@ end
 
 def kesha_maker(array)
   array.collect do |word|
-    word.insert(2, '$')
+    word.remove(2) && word.insert(2, '$')
   end
 end
 
