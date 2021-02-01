@@ -29,10 +29,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  binding.pry
+  # binding.pry
   new_array = []
 
-  array.collect do |word|
+  array.eacg do |word|
 
   if word.start_with?('a')
   new_array << word
