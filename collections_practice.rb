@@ -29,6 +29,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  binding.pry
   new_array = []
 
   array.collect do |word|
