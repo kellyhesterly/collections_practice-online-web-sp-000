@@ -24,5 +24,4 @@ end
 
 def kesha_maker(array)
   array.sub! 'bl$ke, as$ley, sc$tt'
-  end
 end
