@@ -44,8 +44,8 @@ end
 
 def add_s(array)
   array.collect do |word|
-    if word == feet
-      word == feet
+    if word == "feet"
+      word == "feet"
     else
       word.insert(-1, 's')
     end
