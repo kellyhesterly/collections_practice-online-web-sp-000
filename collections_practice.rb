@@ -33,7 +33,7 @@ def find_a(array)
 
   array.select do |word|
     if word.start_with?('a')
-      new_array << word
+      # new_array << word
     end
   end
   # new_array
