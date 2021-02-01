@@ -4,6 +4,6 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort {|y, x|}
-      y <=> x
+  array.sort {|y, x|
+      y <=> x }
 end
