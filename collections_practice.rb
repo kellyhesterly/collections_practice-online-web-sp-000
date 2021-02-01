@@ -32,7 +32,7 @@ def find_a(array)
   # binding.pry
   new_array = []
 
-  array.eacg do |word|
+  array.each do |word|
 
   if word.start_with?('a')
   new_array << word
