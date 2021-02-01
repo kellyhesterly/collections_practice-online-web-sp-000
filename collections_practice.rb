@@ -20,5 +20,5 @@ end
 
 def reverse_array(array)
   array.sort {|x, y|
-  x.reverse <=> y.reverse}
+  x <=> y}
 end
