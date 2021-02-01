@@ -25,4 +25,5 @@ end
 def kesha_maker(array)
   array.map do |letter|
     letter[2] = "$"
+  end
 end
