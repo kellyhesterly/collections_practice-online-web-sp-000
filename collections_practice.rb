@@ -28,9 +28,11 @@ end
 
 def find_a(array)
   # new_array = []
+  n = 0
   array.collect do |word|
   if word.start_with?('a')
     return word
+    n += 1
   end
   end
 end
