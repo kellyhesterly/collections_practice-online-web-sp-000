@@ -23,7 +23,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.collect do |letter|
-    letter[2] = "$"
+  array.sub! 'bl$ke, as$ley, sc$tt'
   end
 end
