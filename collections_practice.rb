@@ -46,5 +46,6 @@ def add_s(array)
   array.collect do |word|
     if word != feet
       word.insert(-1, 's')
+    end
   end
 end
