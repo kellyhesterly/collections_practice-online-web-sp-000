@@ -23,5 +23,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.sub! 'bl$ke, as$ley, sc$tt'
+  array.gsub! 'bl$ke, as$ley, sc$tt'
 end
