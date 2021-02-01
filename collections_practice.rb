@@ -24,6 +24,6 @@ end
 
 def kesha_maker(array)
   array.collect do |letter|
-    letter[2].split("").join("$")
+    letter[2].replace("$")
   end
 end
