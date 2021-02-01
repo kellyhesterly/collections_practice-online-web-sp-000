@@ -26,7 +26,7 @@ def kesha_maker(array)
   array = ["bl$ke", "as$ley", "sc$tt"]
 end
 
-def find_a(arary)
+def find_a(array)
   new_array = []
   array.collect do |word|
   new_array << word.start_with?('a')
