@@ -29,7 +29,7 @@ end
 def find_a(array)
   new_array = []
   array.detect do |word|
-    word.start_with?('a')
+    if word.start_with?('a')
     new_array << word
   end
 end
