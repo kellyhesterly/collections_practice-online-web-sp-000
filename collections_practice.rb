@@ -25,3 +25,6 @@ end
 def kesha_maker(array)
   array = ["bl$ke", "as$ley", "sc$tt"]
 end
+
+def find_a(arary)
+end
