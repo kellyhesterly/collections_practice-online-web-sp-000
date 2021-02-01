@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   array.sort {|x, y|
       x <=> y }
@@ -28,10 +30,12 @@ end
 
 def find_a(array)
   new_array = []
+  
   array.collect do |word|
+    
   if word.start_with?('a')
   new_array << word
-  end
+    end
   new_array
-end
+  end
 end
