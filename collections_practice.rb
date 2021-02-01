@@ -1,4 +1,4 @@
 def sort_array_asc(array)
-  array.collect {|x , y|
+  array.sort {|x , y|
       x <=> y }
 end
